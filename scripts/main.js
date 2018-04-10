@@ -294,7 +294,7 @@ function addSpot(spot){
  */
 function getAPIdata() {
 	
-	var url = "http://api.openweathermap.org/data/2.5/forecast";
+	var url = "https://api.openweathermap.org/data/2.5/forecast";
 	var apiKey ="7aecb9aea729ce90c2e7f44b4ee54fa6";
 	var city = "Florida";
 
