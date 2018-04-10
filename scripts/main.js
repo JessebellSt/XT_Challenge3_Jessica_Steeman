@@ -316,11 +316,7 @@ function getAPIdata() {
 		onAPISucces(response);
 	})
 	
-	// catch error
-	.catch(function (error) {
-		// onAPIError();
-		console.error('Request failed', error);
-	});
+
 }
 
 /**
